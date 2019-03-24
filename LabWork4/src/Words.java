@@ -1,9 +1,15 @@
 import java.lang.Character.*;
 
 public class Words {
-   // public int ThreeSymbolsCalculation(String str){
-   //     String searchSymbols=str.substring(0,3);
-   // }
+    public int threeSymbolsCalculation(String str){
+        int threeSymbolsAmount=0;
+        for(int i=0;i<str.length()-2;i++){
+            if(str.charAt(i)==str.charAt(i+1) && str.charAt(i+1)==str.charAt(i+2)){
+                threeSymbolsAmount++;
+            }
+        }
+        return threeSymbolsAmount;
+    }
 
     public String wordShift(String str){
         String [] words=str.split(" ");
