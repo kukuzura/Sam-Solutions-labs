@@ -36,12 +36,15 @@ public class University {
         Group[] groups=new Group[3];
         groups[0]=new Group("1",students[0],students);
         groups[1]=new Group("2",students[1],students);
-        groups[1]=new Group("3",students[2],students);
+        groups[2]=new Group("3",students[2],students);
         Department dep[]=new Department[1];
         dep[0]=new Department("1",groups);
 
         University univ=new University(dep);
+
         univ.showAllDepartments();
+
+        univ.studentSearch("1");
 
         //University university=new University()
     }

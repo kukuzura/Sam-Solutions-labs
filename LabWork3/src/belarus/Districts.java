@@ -1,6 +1,6 @@
 package belarus;
 
-public class Districts{
+public final class Districts{
     public String grodno="Grodno";
     public String brest="Brest";
     public String vitebsk="Vitebsk";

@@ -1,6 +1,6 @@
 package belarus;
 
-public class Neighbors{
+public final class Neighbors{
     public String ukraine="Ukraine";
     public String russia="Russia";
     public String latvia="Latvia";

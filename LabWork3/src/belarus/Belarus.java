@@ -1,7 +1,7 @@
 package belarus;
 
 
-    public class Belarus {
+    public final class Belarus {
         public Districts districts;
        Languages languages;
        Neighbors neighbors;
